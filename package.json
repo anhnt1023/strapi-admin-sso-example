@@ -1,0 +1,40 @@
+{
+  "name": "strapi-kc-sso",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.12.1",
+    "@strapi/plugin-users-permissions": "4.12.1",
+    "@strapi/strapi": "4.12.1",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.4.0",
+    "better-sqlite3": "8.5.0",
+    "generate-password": "^1.7.0",
+    "koa-passport": "^6.0.0",
+    "koa-session": "^6.4.0",
+    "passport": "^0.6.0",
+    "passport-keycloak-oauth2-oidc": "^1.0.5",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.3.4",
+    "uuid": "^9.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b1a0893c-fcd0-46d8-87c6-36fecc3f9656"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
